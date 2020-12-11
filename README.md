@@ -17,3 +17,9 @@ On Unix-based operating systems such as macOS, files and folders that start with
 Think of Git as keeping a list of changes to files. So how do we tell Git to record our changes? Each recorded change to a file or set of files is called a commit.
 
 Before we make a commit, we must tell Git what files we want to commit. This is called staging and uses the add command. Why must we do this? Why can’t we just commit the file directly? Let’s say you’re working on a two files, but only one of them is ready to commit. You don’t want to be forced to commit both files, just the one that’s ready. That’s where Git’s add command comes in. We add files to a staging area, and then we commit the files that have been staged.
+
+# Remote Repositories (on GitHub & Bitbucket)
+
+Storing a copy of your Git repo with an online host (such as GitHub or Bitbucket) gives you a centrally located place where you can upload your changes and download changes from others, letting you collaborate more easily with other developers. After you have a remote repository set up, you upload (push) your files and revision history to it. After someone else makes changes to a remote repo, you can download (pull) their changes into your local repo.
+
+![Image of home page.](https://github.com/moinsoft/Git/blob/master/images/image1.png)
