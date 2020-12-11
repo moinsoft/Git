@@ -4,7 +4,7 @@ Git is the most commonly used version control system. Git tracks the changes you
 
 So regardless of whether you write code that only you will see, or work as part of a team, Git will be useful for you.
 
-![Image of home page.](https://github.com/moinsoft/Git/blob/master/images/images.png)
+![Image of home page.](https://github.com/moinsoft/Git/blob/master/images/image.png)
 
 # Git Repositories
 
