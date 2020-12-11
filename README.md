@@ -12,3 +12,8 @@ A Git repository (or repo for short) contains all of the project files and the e
 
 On Unix-based operating systems such as macOS, files and folders that start with a period (.) are hidden, so you will not see the .git folder in the macOS Finder unless you show hidden files, but it’s there! You might be able to see it in some code editors.
 
+# Stage & Commit Files
+
+Think of Git as keeping a list of changes to files. So how do we tell Git to record our changes? Each recorded change to a file or set of files is called a commit.
+
+Before we make a commit, we must tell Git what files we want to commit. This is called staging and uses the add command. Why must we do this? Why can’t we just commit the file directly? Let’s say you’re working on a two files, but only one of them is ready to commit. You don’t want to be forced to commit both files, just the one that’s ready. That’s where Git’s add command comes in. We add files to a staging area, and then we commit the files that have been staged.
